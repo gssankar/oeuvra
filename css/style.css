@@ -25,10 +25,23 @@
 - 6.6 Pricing Table
 7. Footer
 
+/*------------------------------------------------------------------------------------------*/
+/* Oeuvra Changes */
+/*------------------------------------------------------------------------------------------*/
+
+.notransition * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+  -webkit-animation: none !important;
+}
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 1. Defaults & Reset of specific styles across browsers */
 /*------------------------------------------------------------------------------------------*/
+
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -296,7 +309,8 @@ section {
 }
 
 .col-38 {
-    width: 38.2%;
+    /*width: 38.2%;*/
+    width: 100%;
 }
 
 /* --------- 2.1 Header --------- */
@@ -792,11 +806,11 @@ h6 {
 }
 
 #banner .section-heading:before {
-    content: "";
+   /* content: "";
     display: block;
     width: 30px;
     height: 5px;
-    margin-top: 30px;
+    margin-top: 30px;*/
 }
 
 
