@@ -1582,8 +1582,8 @@ blockquote {
 }
 
 #status {
-    width: 110px;
-    height: 110px;
+    /*width: 110px;*/
+    /*height: 110px;*/
     position: absolute;
     left: 50%; /* centers the loading animation horizontally one the screen */
     top: 50%; /* centers the loading animation vertically one the screen */
