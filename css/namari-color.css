@@ -115,7 +115,8 @@ a:hover, #header.nav-solid nav a:hover {
 /* Secondary Background and Text Colors */
 
 .secondary-color {
-    background-color:#fcfcfc;
+    background-color:#fafafa;
+    /* background-color: #eee; */
 }
 
 
@@ -128,9 +129,9 @@ a:hover, #header.nav-solid nav a:hover {
 
 #banner {
     /* Replace banner image later */
-    /* background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top; */
-    /*background: url("../images/banner-images/banner-bg.png") no-repeat center top;*/
-    /*background-color:#fff; no-repeat center top;*/
+    /* background: url("../images/banner-images/unsplash.jpg") no-repeat center top; */
+    /* background: url("../images/banner-images/banner-bg.png") no-repeat center top; */
+    background-color:#fafafa;
     background-size:cover;
 }
 
@@ -197,7 +198,8 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight:300;
-    color:#9c9c9c;
+    /* color:#9c9c9c; */
+    color: #777;
 }
 
 /* Testimonial */
