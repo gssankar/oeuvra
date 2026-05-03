@@ -860,7 +860,7 @@ blockquote {
 
 /* --------- 6.6 Clients ---------- */
 
-#clients a {
+#clients .client-tile {
     display: block;
     text-align: center;
     position: relative;
@@ -890,7 +890,7 @@ blockquote {
     transition: all 0.3s ease-out;
 }
 
-#clients a:hover .client-overlay {
+#clients .client-tile:hover .client-overlay {
     opacity: 1;
 }
 
