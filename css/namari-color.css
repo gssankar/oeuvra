@@ -12,7 +12,7 @@
 /*------------------------------------------------------------------------------------------*/
 /* 1. Website Default Styling */
 /*------------------------------------------------------------------------------------------*/
- 
+
 
  /*Color: #d2b356*/
 
@@ -40,12 +40,8 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Border Color */
 
-#banner .section-heading:before, .testimonial.classic footer:before {
+#banner .section-heading:before {
     background: #111;
-}
-
-.pricing-block-content:hover {
-    border-color:#111;
 }
 
 
@@ -61,7 +57,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 
-/* Navigation Colors when the Navigation is sticky and solid */ 
+/* Navigation Colors when the Navigation is sticky and solid */
 
 #header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
     color:#333;
@@ -73,7 +69,7 @@ a:hover, #header.nav-solid nav a:hover {
 #header.nav-solid .active {
     color: #111;
     border-color: #111;
-}    
+}
 
 
 
@@ -84,12 +80,12 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Primary Background and Text Colors */
 
-.primary-color, .featured .pricing {
+.primary-color {
     background-color:#111;
 }
 
-.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
-    color:#fff;    
+.primary-color, .primary-color .section-title, .primary-color .section-subtitle {
+    color:#fff;
 }
 
 .section-heading h2:after {
@@ -128,9 +124,6 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    /* Replace banner image later */
-    /* background: url("../images/banner-images/unsplash.jpg") no-repeat center top; */
-    /* background: url("../images/banner-images/banner-bg.png") no-repeat center top; */
     background-color:#fafafa;
     background-size:cover;
 }
@@ -152,14 +145,14 @@ body {
 
 #logo h1 {
     font-family:;
-    font-size:; 
+    font-size:;
     font-weight:;
     color:;
 }
 
 #logo h2 {
     font-family:;
-    font-size:; 
+    font-size:;
     font-weight:;
     color:;
 }
@@ -189,7 +182,7 @@ body {
 
 .section-title {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 34px; 
+    font-size: 34px;
     font-weight:700;
     color:#111;
 }
@@ -206,55 +199,50 @@ body {
 
 .testimonial q {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 17px; 
+    font-size: 17px;
     font-weight:300;
 }
-
-.testimonial.classic q, .testimonial.classic footer {
-    color:#111;
-}
-
 
 /* Standard Headings h1-h6 */
 
 h1 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 40px; 
+    font-size: 40px;
     font-weight:300;
     color:#111;
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 34px; 
+    font-size: 34px;
     font-weight:300;
     color:#111;
 }
 
 h3 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 30px; 
+    font-size: 30px;
     font-weight:700;
     color:#111;
 }
 
 h4 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight:400;
     color:#111;
 }
 
 h5 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 16px; 
+    font-size: 16px;
     font-weight:400;
     color:#111;
 }
 
 h6 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 14px; 
+    font-size: 14px;
     font-weight:400;
     color:#111;
 }
