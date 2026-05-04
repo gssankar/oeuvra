@@ -473,6 +473,15 @@ section {
 #nav-trigger {
     display: none;
     text-align: right;
+    float: right;
+    width: 38px;
+    height: 71px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    position: relative;
+    z-index: 10001;
 }
 
 #nav-trigger span {
@@ -528,6 +537,7 @@ section {
 nav#nav-mobile {
     position: relative;
     display: none;
+    clear: both;
 }
 
 nav#nav-mobile ul {
@@ -877,51 +887,6 @@ blockquote {
 
 .testimonial.bigtest q {
     font-size: 22px;
-}
-
-/* --------- 6.6 Clients ---------- */
-
-#clients .client-tile {
-    display: block;
-    text-align: center;
-    position: relative;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #fff;
-}
-
-#clients img {
-    display: inline-block;
-    padding: 15px 25px;
-}
-
-.client-overlay {
-    background: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-}
-
-#clients .client-tile:hover .client-overlay {
-    opacity: 1;
-}
-
-.client-overlay span {
-    position: absolute;
-    top: 48%;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    display: inline-block;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -1684,6 +1649,14 @@ blockquote {
         text-align: left;
     }
 
+    @media (min-width: 640px) {
+        #banner-content .col-38,
+        #banner h1,
+        #banner h2 {
+            text-align: center;
+        }
+    }
+
     /*Navigation*/
     nav#nav-mobile ul {
         margin-left: -40px;
@@ -1739,6 +1712,12 @@ blockquote {
     #header aside ul {
         margin-top: 0 !important;
         padding-top: 6px;
+    }
+
+    #banner-content .col-38,
+    #banner h1,
+    #banner h2 {
+        text-align: center;
     }
 
     /*Navigation*/
